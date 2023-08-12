@@ -1,0 +1,53 @@
+body * {
+  margin: 0;
+  user-select: none;
+}
+body {
+  background: var(--bodyBackground-color);
+  font-size: 14px; //как на сайте
+  font-family: Rubik, sans-serif;
+}
+
+.sectionContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+.sectionContainer,
+.sectioneBody {
+  margin: 0 auto;
+}
+.sectioneCatalog--advantages {
+  svg {
+    path {
+      stroke: var(--themeColor-color);
+    }
+  }
+}
+@media (max-width: 768px) {
+  .sectionContainer,
+  .sectioneBody {
+    padding: 0;
+
+    width: 97%;
+  }
+  .sectionContainer {
+    gap: 16px;
+  }
+}
+@media (min-width: 769px) {
+  .sectionContainer,
+  .sectioneBody {
+    padding: 0 5%;
+    width: 90%;
+  }
+}
+
+@media (min-width: 1440px) {
+  .sectionContainer,
+  .sectioneBody {
+    padding: 0;
+    width: 1296px;
+  }
+}
