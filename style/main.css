@@ -47,6 +47,12 @@ body {
   stroke: var(--themeColor-color);
 }
 
+@media (max-width: 375px) {
+  .sectionContainer,
+  .sectioneBody {
+    width: 100%;
+  }
+}
 @media (max-width: 768px) {
   .sectionContainer,
   .sectioneBody {
