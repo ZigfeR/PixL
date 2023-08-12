@@ -47,12 +47,6 @@ body {
   stroke: var(--themeColor-color);
 }
 
-@media (max-width: 375px) {
-  .sectionContainer,
-  .sectioneBody {
-    width: 100%;
-  }
-}
 @media (max-width: 768px) {
   .sectionContainer,
   .sectioneBody {
@@ -61,6 +55,12 @@ body {
   }
   .sectionContainer {
     gap: 16px;
+  }
+}
+@media (max-width: 375px) {
+  .sectionContainer,
+  .sectioneBody {
+    width: 100%;
   }
 }
 @media (min-width: 769px) {
